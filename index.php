@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="description" content="Wolf Studio Apps develops innovative, effective and creative web apps for clients based in sunderland north east uk. Working with javascript, jquery, php, html and mysql to create unique websites, mobile apps and applications " />
 <title>Wolf Studio Apps</title>
 <link rel="stylesheet" href="css/wolf.css" />
 <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
@@ -12,6 +13,7 @@
 
 <body><div id="h2"></div>
 <div id="fixed_header"><div class="navclass fixed_nav">Contact</div><div class="navclass fixed_nav">Portfolio</div><div class="navclass fixed_nav">About</div></div>
+<div id="logo_fixed"><img src="images/wolfheadtie_red.png" height="40" width="22" /></div>
 <div id="wrapper">
 		<div id="header">
         	<div id="header_left_text"><!--Web<br/>Mobile<br/>Javascript<br/>HTML5<br/>CSS3<br/>PHP<br/>Databases<br/>Android<br/>Design<br/>SQL<br/>jQuery<br/>Plugings<br/>API<br/>Animation--></div>
@@ -21,6 +23,10 @@
             </div>
             <div id="header_right_text"><!--jQuery<br/>Plugings<br/>API<br/>Animation<br/>Creative<br/>Awesome<br/>Effective<br/>Standout<br/>Useable<br/>Efficent--></div>
         </div>
+        <div id="mobile_nav"><a href="#"><div class="mobile_nav_class">Contact</div></a>
+        						<a href="#"><div class="mobile_nav_class">Portfolio</div></a>
+                                <a href="#"><div class="mobile_nav_class">About</div></a>
+                                </div>
         
         <div class="contact_box">
         			<div id="contact_left_side">
@@ -35,6 +41,9 @@
                         </div>
                  	</div>
         </div>
+        
+        <div class="mobile_box"><a href="#"><img id="mobile_contact_box" src="images/icons_web/email-icon-md.png" height="100" width="86" /></a></div><div class="mobile_box"><img class="mb_margin" src="images/icons_web/GasFull-512_mobile.png" width="128" height="77" /></div>
+        
         <div class="contact_box">
         			<div id="contact_right_side">
         				<div id="contact_text">Focusing on <span class="y_t">innovative</span>, <span class="y_t">unique</span> and <span class="y_t">awesome</span> projects from start to finish.

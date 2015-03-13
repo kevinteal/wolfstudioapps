@@ -11,10 +11,10 @@ function set_skin_color(){
 		//.pb_c_button_div
 		//#footbar
 		//#fixed header
-		var color_name = "green";
+		var color_name = "yellow";
 		var colors = {red:"#b54242", green:"#42b55a", yellow:"#f7fd4e", purple:"#b5429b", orange:"#f8cc45"};
 		var color = colors[color_name];
-		$("#navbar, #yellow_box, #yellow_box2,.pb_c_button_div,#footbar,#fixed_header").css({"background-color":color});
+		$("#navbar, #yellow_box, #yellow_box2,.pb_c_button_div,#footbar,#fixed_header,#mobile_nav,.mobile_box").css({"background-color":color});
 		$(".y_t,.pb_c_head").css({"color":color});
 		
 		//imgs 
