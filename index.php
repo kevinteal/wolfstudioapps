@@ -3,8 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="description" content="Wolf Studio Apps develops innovative, effective and creative web apps for clients based in sunderland north east uk. Working with javascript, jquery, php, html and mysql to create unique websites, mobile apps and applications " />
+<meta name="viewport" content="initial-scale=1">
 <title>Wolf Studio Apps</title>
 <link rel="stylesheet" href="css/wolf.css" />
+<link rel="icon" href="images/wolf-icon.png" type="image/png">
 <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="js/wolf.js"></script>
 <script type="text/javascript" src="js/wolfjscss.js"></script>
