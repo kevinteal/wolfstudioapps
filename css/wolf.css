@@ -3,7 +3,8 @@
 
 @font-face {
     font-family: wolf_font;
-    src:url(../font/wolf_font.ttf);
+   src:url(../font/wolf_font.ttf);
+   /* src:url(../font/ShadowsIntoLight.ttf);*/
 }
 
 body{
