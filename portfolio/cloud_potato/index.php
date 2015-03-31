@@ -23,17 +23,24 @@
            <br/><img id="arrow" src="../css/arrow.png" width="60" height="37" /> 
             </div>
 </div>
-<div class="text_single"><hr class="style-one">The Cloud Potato connects to the TVRage API to retrive data about tv shows and present them to the user in a friendly format.<hr class="style-one"></div>
+<div class="text_single faded_bg"><hr class="style-one">The Cloud Potato connects to the TVRage API to retrive data about tv shows and present them to the user in a friendly format.<hr class="style-one"></div>
 
 
-<div class="feature_box"><div class="feature_left"><div class="feature_img cloud_feature_bg"><img src="images/blocks.png" width="266" height="300"/> </div></div><div class="feature_right"></div></div>
+<div class="feature_box"><div class="feature_left"><div class="feature_img cloud_feature_bg"><img src="images/blocks.png" width="266" height="300"/> </div></div><div class="feature_right">
+Place holder text with some feature highlight text <span class="blue_text">here</span>. almost some more <span class="blue_text">here</span>. and <span class="blue_text">here</span>. and <span class="blue_text">here</span>. Place holder text with some feature highlight text <span class="blue_text">here</span>. almost some more <span class="blue_text">here</span>. and <span class="blue_text">here</span>. and <span class="blue_text">here</span>. 
 
-<div class="feature_box"><div class="feature_right"></div><div class="feature_left"><div class="feature_img cloud_feature_bg"><img src="images/old.png" width="319" height="300" /></div></div></div>
+</div></div>
 
-<div class="feature_box"><div class="feature_left"><div class="feature_img cloud_feature_bg"><img src="images/phone.png" width="169" height="300" /></div></div><div class="feature_right"></div></div>
+<div class="feature_box"><div class="feature_right">
+Place holder text with some feature highlight text <span class="blue_text">here</span>. almost some more <span class="blue_text">here</span>. and <span class="blue_text">here</span>. and <span class="blue_text">here</span>. Place holder text with some feature highlight text <span class="blue_text">here</span>. almost some more <span class="blue_text">here</span>. and <span class="blue_text">here</span>. and <span class="blue_text">here</span>. 
+</div><div class="feature_left"><div class="feature_img cloud_feature_bg"><img src="images/old.png" width="319" height="300" /></div></div></div>
+
+<div class="feature_box"><div class="feature_left"><div class="feature_img cloud_feature_bg"><img src="images/phone.png" width="169" height="300" /></div></div><div class="feature_right">
+Place holder text with some feature highlight text <span class="blue_text">here</span>. almost some more <span class="blue_text">here</span>. and <span class="blue_text">here</span>. and <span class="blue_text">here</span>. Place holder text with some feature highlight text <span class="blue_text">here</span>. almost some more <span class="blue_text">here</span>. and <span class="blue_text">here</span>. and <span class="blue_text">here</span>. 
+</div></div>
 
 
-<div class="text_single"><hr class="style-one">The Cloud Potato connects to the TVRage API to retrive data about tv shows and present them to the user in a friendly format.<hr class="style-one"></div>
+<div class="text_single faded_bg"><hr class="style-one">The Cloud Potato connects to the TVRage API to retrive data about tv shows and present them to the user in a friendly format.<hr class="style-one"></div>
 
 
 <div id="vid_box" class="cloud_bg_tiny">
@@ -45,20 +52,25 @@
 
 <div class="text_single extra_height"> <div class="portfolio_side left_p"></div><div class="portfolio_cen">PORTFOLIO</div><div class="portfolio_side right_p"></div> <br/><br/>
 
-<div class="portfolio_box no_margin">
+<div class="portfolio_box no_margin" data-for="info_box1">
 	<img src="../css/hand.png" width="118" height="150" >
+    <div class="info_box" id="info_box1" ><span class="title_portfolio">TITLE</span><br/><span class="text_portfolio">A mobile app for people</span></div>
 </div>
-<div class="portfolio_box">
+<div class="portfolio_box" data-for="info_box2">
 	<img src="../css/bub.png" width="192" height="150" />
+    <div class="info_box" id="info_box2" ><span class="title_portfolio">TITLE</span><br/><span class="text_portfolio">A mobile app for people</span></div>
 </div>
-<div class="portfolio_box">
+<div class="portfolio_box" data-for="info_box3">
 	<img src="../css/ball_green.png" width="150" height="150" />
+    <div class="info_box" id="info_box3" ><span class="title_portfolio">TITLE</span><br/><span class="text_portfolio">A mobile app for people</span></div>
 </div>
-<div class="portfolio_box">
+<div class="portfolio_box" data-for="info_box4">
 	<img src="../css/plug.png" width="199" height="150" />
+    <div class="info_box" id="info_box4" ><span class="title_portfolio">TITLE</span><br/><span class="text_portfolio">A mobile app for people</span></div>
 </div>
-<div class="portfolio_box">
+<div class="portfolio_box" data-for="info_box5" >
 	<img src="../css/pen.png" width="150" height="150" />
+    <div class="info_box" id="info_box5" ><span class="title_portfolio">TITLE</span><br/><span class="text_portfolio">A mobile app for people</span></div>
 </div>
 <div class="full_width">
 <hr class="style-one">
@@ -69,9 +81,9 @@
 </div>
 <div id="fwrapper" class="cloud_bg_tiny">
 <div id="footer">
-	<div class="foot_content"><img src="../css/home.png" width="304" height="300" /></div>
+	<div class="foot_content sink"><img src="../css/home.png" width="304" height="300" /></div>
     <div class="foot_content"><img src="../css/wolftie.png"  width="164"  height="300"/></div>
-    <div class="foot_content"><img src="../css/at.png" width="304" height="300" /></div>
+    <div class="foot_content sink"><img src="../css/at.png" width="304" height="300" /></div>
     <div id="footer_bar"><div id="footer_con"></div></div>
 </div><!-- new footer wrapper to get 100% bg color -->
 </div>
