@@ -9,7 +9,14 @@ body,html {
 body{
 	background:url(blue_bg.png) repeat;
 }
-
+#logo_fixed{
+	position:fixed;
+	bottom:0;
+	left:0;
+	height:40px;
+	width:22px;
+	z-index:99;
+}
 #wrapper{
 	margin:0 auto;
 	width:1300px;
@@ -25,6 +32,36 @@ body{
 .cloud_potato_bg{
 	background-color:#181818;
 	background-image:url(../cloud_potato/images/tv.png), url(../cloud_potato/images/tiny_tv.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+.bet_penguin_bg{
+	background-color:#181818;
+	background-image:url(../bet_penguin/images/ball.png), url(../bet_penguin/images/tiny_ball.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+.thought_trail_bg{
+	background-color:#181818;
+	background-image:url(../thought_trail/images/bub.png), url(../thought_trail/images/tiny_bub.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+.festival_day_planner_bg{
+	background-color:#181818;
+	background-image:url(../festival_day_planner/images/hand.png), url(../festival_day_planner/images/tiny_hand.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+.drawcam_bg{
+	background-color:#181818;
+	background-image:url(../drawcam/images/pen.png), url(../drawcam/images/tiny_pen.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+.drag_plugin_bg{
+	background-color:#181818;
+	background-image:url(../drag_plugin/images/plugged.png), url(../drag_plugin/images/tiny_plugged.png);
     background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
 }
@@ -47,6 +84,33 @@ body{
 	display:block;
 	margin-top:-10px;
 	font-size:0.25em;
+}
+#nav_links span{
+	transition:all 0.3s ease;
+	cursor:pointer;
+	position: relative;
+}
+#nav_links span:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 7px;
+  left: 0;
+  background-color: #3690ff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#nav_links span:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+#nav_links span:hover {
+	color:#3690ff;
 }
 
 #quote{
@@ -127,6 +191,7 @@ hr.style-one {
 }
 .faded_bg{
 	background-color:rgba(54, 144, 255, 0.2);
+	/*background-color:rgba(255, 255, 255, 0.4);*/
 }
 .feature_box{
 	width:100%;
@@ -170,8 +235,35 @@ hr.style-one {
 	background-image:url(../cloud_potato/images/tiny_tvblue.png);
 	background-repeat:repeat;
 }
+.drag_feature_bg{
+	background-image:url(../drag_plugin/images/tiny_plugged_blue.png);
+	background-repeat:repeat;
+}
+.draw_feature_bg{
+	background-image:url(../drawcam/images/tiny_pen_blue.png);
+	background-repeat:repeat;
+}
+.bet_feature_bg{
+	background-image:url(../bet_penguin/images/tiny_ball_blue.png);
+	background-repeat:repeat;
+}
+.thought_feature_bg{
+	background-image:url(../thought_trail/images/tiny_bub_blue.png);
+	background-repeat:repeat;
+}
+.festival_feature_bg{
+	background-image:url(../festival_day_planner/images/tiny_hand_blue.png);
+	background-repeat:repeat;
+}
+
 .feature_img img{
 	margin-top:10px;
+}
+.extra_margin{
+	margin-top:70px !important;
+}
+.extra_margin1{
+	margin-top:49px !important;
 }
 
 #vid_box{
@@ -314,6 +406,31 @@ hr.style-one {
 .cloud_bg_tiny{
 	background-color:#181818;
 	background-image:url(../cloud_potato/images/tiny_tv.png);
+    background-repeat:repeat;
+}
+.drag_bg_tiny{
+	background-color:#181818;
+	background-image:url(../drag_plugin/images/tiny_plugged.png);
+    background-repeat:repeat;
+}
+.draw_bg_tiny{
+	background-color:#181818;
+	background-image:url(../drawcam/images/tiny_pen.png);
+    background-repeat:repeat;
+}
+.festival_bg_tiny{
+	background-color:#181818;
+	background-image:url(../festival_day_planner/images/tiny_hand.png);
+    background-repeat:repeat;
+}
+.thought_bg_tiny{
+	background-color:#181818;
+	background-image:url(../thought_trail/images/tiny_bub.png);
+    background-repeat:repeat;
+}
+.bet_bg_tiny{
+	background-color:#181818;
+	background-image:url(../bet_penguin/images/tiny_ball.png);
     background-repeat:repeat;
 }
 #footer_bar{

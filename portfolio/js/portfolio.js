@@ -7,7 +7,7 @@ $(document).ready(function(e) {
 	//$(document).attr('title');
 	
 	
-	setInterval(function(){ quote_changer() }, 5000);
+	setInterval(function(){ quote_changer() }, 4000);
 	
 	
 	$(".portfolio_box").on("mouseover",function(){
@@ -39,5 +39,12 @@ function quote_changer(){
 		quote.addClass('quote_text_shadow');
 		quote.css("color","#3690ff");
 	}
+	
+}
+
+function scrollme(where){
+	var location = $("#"+where).offset();
+	var locationy = location.top;
+	$("body").animate({ scrollTop: locationy },1500);
 	
 }
