@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contactpage_box{
+	margin:auto;
+	width:1200px;
+	height:600px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:2em;
+	color:#2c2c2c;
+}
+#contactpage_message{
+	width:70%;
+	height:100%;
+	float:left;
+}
+#contactpage_img{
+	float:left;
+	width:30%;
+	height:100%;
+	background-image:url(../images/wolfheadtie_red.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-size:205px 376px ;
+}
+.contactpage_row{
+	width:100%;
+	 height:20%;
+}
+.extra_row_height{
+	height:40%;
+}
+.row_title{
+	float:left;
+	width:20%;
+	height:100%;
+}
+.row_input{
+	float:left;
+	width:80%;
+	height:100%;
+}
+.row_input,.row_title,.contactpage_row,#contactpage_box,input,textarea{
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
+	 padding: 5px 10px;
+}
+input{
+	background:#2c2c2c;
+	color:white;
+	width:70%;
+	height:40px;
+	font-size:0.5em;
+}
+input[type=submit]:hover{
+	background:#f7fd4e;
+	color:#2c2c2c;
+	cursor:pointer;
+}
+textarea{
+	background:#2c2c2c;
+	color:white;
+	font-size:0.5em;
+	resize: none;
+}
+#message{
+	height:150px !important;
+	line-height:0.5em !important;
+}

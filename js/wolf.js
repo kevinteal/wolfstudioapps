@@ -79,6 +79,13 @@ $(document).ready(function(e) {
 					}, 2300);
 				}
 		});
+		
 	
 });
+
+function scrollme(where){
+	var location = $("#"+where).offset();
+	var locationy = location.top;
+	$("body").animate({ scrollTop: locationy },1500);
+}
 

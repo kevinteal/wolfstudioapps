@@ -186,7 +186,7 @@ hr.style-one {
 	font-size:1.5em;
 	color:#2c2c2c;
 	margin-top:20px;
-	margin-bottom:20px;
+	margin-bottom:60px;
 	letter-spacing:2px;
 }
 .faded_bg{
@@ -200,6 +200,9 @@ hr.style-one {
 	float:left;
 	margin-bottom:50px;
 }
+.feature_box a{
+	color:#3690ff;
+}
 .feature_left{
 	float:left;
 	width:40%;
@@ -212,7 +215,7 @@ hr.style-one {
 	-moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
      box-sizing: border-box;
-	 padding: 25px;
+	 padding: 5px 10px;
 	 color:white;
 	 font-size:1.5em;
 	 letter-spacing:2px;
@@ -350,10 +353,13 @@ hr.style-one {
 	left: 39px;
 }
 .title_portfolio{
-	font-size:1em;
+	font-size:0.7em;
 }
 .text_portfolio{
 	font-size:0.5em;
+}
+.small_text{
+ 		font-size:0.5em;
 }
 .extra_height{
 	height:300px !important;
@@ -443,4 +449,10 @@ hr.style-one {
 	background:#3690ff;
 	height:100%;
 	margin:auto;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
+	 padding: 10px 10px;
+	 color:white;
+	 text-align:center;
 }
