@@ -86,6 +86,6 @@ $(document).ready(function(e) {
 function scrollme(where){
 	var location = $("#"+where).offset();
 	var locationy = location.top;
-	$("body").animate({ scrollTop: locationy },1500);
+	$("body,html").animate({ scrollTop: locationy },1500);
 }
 

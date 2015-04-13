@@ -84,7 +84,7 @@ The prediction uses  <span class="blue_text">machine learning</span> in the form
 <div id="footer">
 	<div class="foot_content sink"><a href="../../index.php"><img src="../css/home.png" width="304" height="300" /></a></div>
     <div class="foot_content"><img src="../css/wolftie.png"  width="164"  height="300"/></div>
-    <div class="foot_content sink"><img src="../css/at.png" width="304" height="300" /></div>
+    <div class="foot_content sink"><a href="../../contact.php"><img src="../css/at.png" width="304" height="300" /></a></div>
     <div id="footer_bar"><div id="footer_con">WolfStudioApps is an independent sole trader based in Sunderland, UK</div></div>
 </div><!-- new footer wrapper to get 100% bg color -->
 </div>

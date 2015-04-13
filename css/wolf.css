@@ -468,15 +468,15 @@ background:#f7fd4e;
    #wrapper,#footer_wrapper{
 	   width:960px;
    }
-   #logo{
+   #logo1{
 	margin-left:40px;
 	width:100%;
    }
-   #contact_right_side{
+   .contact_right_side{
 	width:60%;
 	float:left;
    }
-    #contact_left_side{
+    .contact_left_side{
 	width:40%;
 	float:left;
    }
@@ -511,15 +511,15 @@ background:#f7fd4e;
 	 #wrapper,#footer_wrapper{
 	   width:760px;
    }
-   #logo{
+   #logo1{
 	   margin-left:10px;
 	background-size:660px 256px !important;
    }
-   #contact_right_side{
+   .contact_right_side{
 	width:60%;
 	float:left;
    }
-    #contact_left_side{
+    .contact_left_side{
 	width:40%;
 	float:left;
    }
@@ -535,7 +535,7 @@ background:#f7fd4e;
 		left:145px;
 		top:220px;
 	}
-	#contact_text{
+	.contact_text{
 		font-size:90%;
 	}
 	#portfolio{
@@ -569,11 +569,11 @@ background:#f7fd4e;
 		margin-top:0px;
 	height:1650px;
 	}
-	#contact_right_side{
+	.contact_right_side{
 	width:100%;
 	float:left;
    }
-	   #contact_text{
+	   .contact_text{
 		font-size:75%;
 		line-height:75%;
 		text-align:center;
@@ -585,13 +585,14 @@ background:#f7fd4e;
 	width:100%;
 	height:175px;
 	}
-  #header_left_text,#header_right_text,#navbar,#contact_left_side,#yellow_box,#yellow_box2,#h2,#foot_center{
+  #header_left_text,#header_right_text,#navbar,.contact_left_side,#yellow_box,#yellow_box2,#h2,#foot_center{
 	  display:none;
 }
 #header_main{
 	width:100%;
 }
- #logo{
+ #logo1{
+	 background-position:top center;
 	background-size:300px 116px !important;
    }
    #header{
@@ -605,6 +606,7 @@ background:#f7fd4e;
 	height:20px;
 	background:#fdf74e;;
 	color:#2c2c2c;
+	cursor:pointer;
 }
 #mobile_nav a{
 	color:#2c2c2c;
@@ -634,7 +636,7 @@ box-shadow:         0px 11px 20px 3px rgba(47, 50, 50, 0.75);
 }
 .foot_side{
 	width:100%;
-	height:50%;
+	height:40%;
 }
 #footer{
 	height:500px;
@@ -644,11 +646,11 @@ box-shadow:         0px 11px 20px 3px rgba(47, 50, 50, 0.75);
 	}
 	#foot_top{
 	
-	height:85%;
+	height:90%;
 }
 #foot_bot{
 	
-	height:15%;
+	height:10%;
 }
 #fixed_header{
 	position:fixed;

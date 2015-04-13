@@ -68,3 +68,28 @@ textarea{
 	height:150px !important;
 	line-height:0.5em !important;
 }
+
+@media screen and (max-width: 360px) {
+	 #contactpage_box{
+	   width:320px;
+   }
+   #contactpage_img{
+	   display:none;
+   }
+   #contactpage_message{
+	   width:100%;
+   }
+   .row_title{
+	   width:100%;
+	   font-size:0.5em;
+   }
+   .row_input{
+	   width:100%;
+   }
+   input{
+	width:100%;
+	}
+	textarea{
+		width:100%;
+	}
+}

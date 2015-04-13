@@ -14,27 +14,28 @@
 </head>
 
 <body><div id="h2"></div>
-<div id="fixed_header"><div class="navclass fixed_nav"><a href="#">Contact</a></div><div class="navclass fixed_nav"><span onClick="scrollme('portfolio')">Portfolio</span></div><div class="navclass fixed_nav"><span onClick="scrollme('about')">About</span></div></div>
+<div id="fixed_header"><div class="navclass fixed_nav"><a href="contact.php">Contact</a></div><div class="navclass fixed_nav"><span onClick="scrollme('portfolio')">Portfolio</span></div><div class="navclass fixed_nav"><span onClick="scrollme('about')">About</span></div></div>
 <div id="logo_fixed"><img src="images/wolfheadtie_red.png" height="40" width="22" /></div>
 <div id="wrapper">
 		<div id="header">
         	<div id="header_left_text"><!--Web<br/>Mobile<br/>Javascript<br/>HTML5<br/>CSS3<br/>PHP<br/>Databases<br/>Android<br/>Design<br/>SQL<br/>jQuery<br/>Plugings<br/>API<br/>Animation--></div>
         	<div id="header_main">
-            <div id="navbar"><div class="navclass"><a href="#">Contact</a></div><div class="navclass"><span onClick="scrollme('portfolio')">Portfolio</span></div><div class="navclass"><span onClick="scrollme('about')">About</span></div></div>
+            <div id="navbar"><div class="navclass"><a href="contact.php">Contact</a></div><div class="navclass"><span onClick="scrollme('portfolio')">Portfolio</span></div><div class="navclass"><span onClick="scrollme('about')">About</span></div></div>
             <div id="logo1"></div>
             </div>
             <div id="header_right_text"><!--jQuery<br/>Plugings<br/>API<br/>Animation<br/>Creative<br/>Awesome<br/>Effective<br/>Standout<br/>Useable<br/>Efficent--></div>
         </div>
-        <div id="mobile_nav"><a href="#"><div class="mobile_nav_class">Contact</div></a>
-        						<a href="#"><div class="mobile_nav_class">Portfolio</div></a>
-                                <a href="#"><div class="mobile_nav_class">About</div></a>
+        <div id="mobile_nav"><a href="contact.php"><div class="mobile_nav_class">Contact</div></a>
+        						<span onClick="scrollme('portfolio')"><div class="mobile_nav_class">Portfolio</div></span>
+                                <span onClick="scrollme('about')"><div class="mobile_nav_class">About</div></span>
                                 </div>
         
         <div class="contact_box">
         			<div class="contact_left_side">
-        				<div id="yellow_box">
+        				<a href="contact.php"><div id="yellow_box">
                         Contact
                         </div>
+                        </a>
                     </div>
                     <div id="about" class="contact_right_side">
 	                    <div class="contact_text">Designing and Developing <span class="y_t">creative</span>, <span class="y_t">effective</span> and <span class="y_t">clever</span> web apps.
@@ -143,7 +144,7 @@
     		<div id="foot_top">
             		<div class="foot_side">WolfStudioApps is a Freelance <span class="y_t">javascript</span>, <span class="y_t">jQuery</span>, <span class="y_t">HTML5</span> and <span class="y_t">CSS3</span> front end developer<br/> with experience of back end development in <span class="y_t">PHP</span> and <span class="y_t">MySQL</span>.</div>
                     <div id="foot_center"><center><img id="wolfheadtie_logo" src="images/wolfheadtie.png" height="276" width="150" /></center></div>
-                    <div class="foot_side">Contact WolfStudioApps to learn how we can get your project <span class="y_t">off the ground and onto users devices</span>. <center><a href="#"><img src="images/at.png" height="100" width="101" /></a></center></div>
+                    <div class="foot_side">Contact WolfStudioApps to learn how we can get your project <span class="y_t">off the ground and onto users devices</span>. <center><a href="contact.php"><img src="images/at.png" height="100" width="101" /></a></center></div>
             </div>
             <div id="foot_bot">
             		<div id="footbar">WolfStudioApps is an independent sole trader based in Sunderland, UK</div>

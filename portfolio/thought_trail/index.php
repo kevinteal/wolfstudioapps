@@ -37,7 +37,7 @@ Users can have <span class="blue_text">multiple thought trails</span> within the
 </div><div class="feature_left"><div class="feature_img thought_feature_bg"><img src="images/normal_ian-symbol-padlock.png" width="230" height="300" /></div></div></div>
 
 <div class="feature_box"><div class="feature_left"><div class="feature_img thought_feature_bg"><img src="images/works.png" width="300" height="300"/></div></div><div class="feature_right">
-The app is currently in development, if you wish to contact wolf studio apps about this app please do so <a href="#">here</a>. 
+The app is currently in development, if you wish to contact wolf studio apps about this app please do so <a href="../../contact.php">here</a>. 
 </div></div>
 
 
@@ -84,7 +84,7 @@ The app is currently in development, if you wish to contact wolf studio apps abo
 <div id="footer">
 	<div class="foot_content sink"><a href="../../index.php"><img src="../css/home.png" width="304" height="300" /></a></div>
     <div class="foot_content"><img src="../css/wolftie.png"  width="164"  height="300"/></div>
-    <div class="foot_content sink"><img src="../css/at.png" width="304" height="300" /></div>
+    <div class="foot_content sink"><a href="../../contact.php"><img src="../css/at.png" width="304" height="300" /></a></div>
     <div id="footer_bar"><div id="footer_con">WolfStudioApps is an independent sole trader based in Sunderland, UK</div></div>
 </div><!-- new footer wrapper to get 100% bg color -->
 </div>
