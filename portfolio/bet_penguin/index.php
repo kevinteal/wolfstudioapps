@@ -45,7 +45,7 @@ The prediction uses  <span class="blue_text">machine learning</span> in the form
 
 
 <div id="vid_box" class="bet_bg_tiny">
-    <video width="1080" height="550" controls> 
+    <video  controls> 
         <source src="video/bet_showing.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>

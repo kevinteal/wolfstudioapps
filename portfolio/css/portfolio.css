@@ -27,6 +27,7 @@ body{
 	left:0;
 	width:100%;
 	height:100vh;
+	min-height:600px;
 	z-index:-1;
 }
 .cloud_potato_bg{
@@ -70,6 +71,7 @@ body{
 	float:left;
 	width:100%;
 	height:100vh;
+	min-height:600px;
 	margin:0 0;
 	font-size:4em;
 	text-align:center;
@@ -455,4 +457,25 @@ hr.style-one {
 	 padding: 10px 10px;
 	 color:white;
 	 text-align:center;
+}
+video{
+	width:1080px; 
+	height:550px;
+}
+
+@media screen and (max-width: 1024px) {
+   #wrapper,#footer{
+	   width:960px;
+   }
+   .feature_right{
+	   font-size:1.2em;
+   }
+   video{
+	width:900px; 
+	height:550px;
+	}
+	.portfolio_box{
+		margin-left:7px;
+	}
+  
 }
