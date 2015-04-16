@@ -36,7 +36,7 @@ The app used <span class="blue_text">flash</span> to create a <span class="blue_
 Once the drawing was completed the user pressed <span class="blue_text">upload to facebook</span> and the picture was posted on their <span class="blue_text">wall</span> with their friend <span class="blue_text">tagged</span> in the image. 
 </div><div class="feature_left"><div class="feature_img draw_feature_bg"><img src="images/share-icon-md.png" width="267" height="297" /></div></div></div>
 
-<div class="feature_box"><div class="feature_left"><div class="feature_img draw_feature_bg"><img src="images/pow2.png" width="394" height="300" /></div></div><div class="feature_right">
+<div class="feature_box"><div class="feature_left"><div class="feature_img draw_feature_bg edit_img"><img src="images/pow2.png" width="394" height="300" /></div></div><div class="feature_right">
 When posted on facebook the app added a link in the description for the friend who had been <span class="blue_text">tagged to get their own back</span>! 
 </div></div>
 
@@ -82,9 +82,9 @@ When posted on facebook the app added a link in the description for the friend w
 </div>
 <div id="fwrapper" class="draw_bg_tiny">
 <div id="footer">
-	<div class="foot_content sink"><a href="../../index.php"><img src="../css/home.png" width="304" height="300" /></a></div>
-    <div class="foot_content"><img src="../css/wolftie.png"  width="164"  height="300"/></div>
-    <div class="foot_content sink"><a href="../../contact.php"><img src="../css/at.png" width="304" height="300" /></a></div>
+	<a href="../../index.php"><div class="foot_content sink home_link"></div></a>
+    <div class="foot_content wolftie"></div>
+    <a href="../../contact.php"><div class="foot_content sink at_link"></div></a>
     <div id="footer_bar"><div id="footer_con">WolfStudioApps is an independent sole trader based in Sunderland, UK</div></div>
 </div><!-- new footer wrapper to get 100% bg color -->
 </div>

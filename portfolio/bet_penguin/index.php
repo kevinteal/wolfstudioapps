@@ -82,9 +82,9 @@ The prediction uses  <span class="blue_text">machine learning</span> in the form
 </div>
 <div id="fwrapper" class="bet_bg_tiny">
 <div id="footer">
-	<div class="foot_content sink"><a href="../../index.php"><img src="../css/home.png" width="304" height="300" /></a></div>
-    <div class="foot_content"><img src="../css/wolftie.png"  width="164"  height="300"/></div>
-    <div class="foot_content sink"><a href="../../contact.php"><img src="../css/at.png" width="304" height="300" /></a></div>
+	<a href="../../index.php"><div class="foot_content sink home_link"></div></a>
+    <div class="foot_content wolftie"></div>
+    <a href="../../contact.php"><div class="foot_content sink at_link"></div></a>
     <div id="footer_bar"><div id="footer_con">WolfStudioApps is an independent sole trader based in Sunderland, UK</div></div>
 </div><!-- new footer wrapper to get 100% bg color -->
 </div>

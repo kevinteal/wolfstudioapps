@@ -27,13 +27,13 @@
 <div id="about" class="text_single faded_bg"><hr class="style-one">DragPlugin.js is designed to make horizontal scrolling on computers more user-friendly. By allowing scrollable content to be dragged.<hr class="style-one"></div>
 
 
-<div id="features" class="feature_box"><div class="feature_left"><div class="feature_img drag_feature_bg"><img class="extra_margin" src="images/swoosh_BW.png" width="370" height="107"/> </div></div><div class="feature_right">
+<div id="features" class="feature_box"><div class="feature_left"><div class="feature_img drag_feature_bg edit_img"><img class="extra_margin" src="images/swoosh_BW.png" width="370" height="107"/> </div></div><div class="feature_right">
 With <span class="blue_text">Drag Plugin</span>, content can be  <span class="blue_text">easily scrolled</span> on the <span class="blue_text">X or Y axis</span>. Mainly used for horizontal scrolling, the plugin allows content to be <span class="blue_text">dragged</span> by any area of itself rather than just the scroll bars. 
 
 </div></div>
 
 <div class="feature_box"><div class="feature_right">
-The plugin allows the developer to set the <span class="blue_text">speed of scrolling</span> and the <span class="blue_text">direction</span>. The developer must place the scrollable content within a wrapper. For greater user ability it is recommended to set the text selection property of the element to none and change the mouse curser to a hand. 
+The plugin allows the developer to set the <span class="blue_text">speed of scrolling</span> and the <span class="blue_text">direction</span>. The developer must place the scrollable content within a wrapper. For greater user ability it is recommended to set the css text selection property to none and change the mouse curser to a hand. 
 </div><div class="feature_left"><div class="feature_img drag_feature_bg"><img src="images/engine.png" width="256" height="256" /></div></div></div>
 
 <div class="feature_box"><div class="feature_left"><div class="feature_img drag_feature_bg"><img src="images/plug.png" width="300" height="300" /></div></div><div class="feature_right">
@@ -89,9 +89,9 @@ Direction:’x’
 </div>
 <div id="fwrapper" class="drag_bg_tiny">
 <div id="footer">
-	<div class="foot_content sink"><a href="../../index.php"><img src="../css/home.png" width="304" height="300" /></a></div>
-    <div class="foot_content"><img src="../css/wolftie.png"  width="164"  height="300"/></div>
-    <div class="foot_content sink"><a href="../../contact.php"><img src="../css/at.png" width="304" height="300" /></a></div>
+	<a href="../../index.php"><div class="foot_content sink home_link"></div></a>
+    <div class="foot_content wolftie"></div>
+    <a href="../../contact.php"><div class="foot_content sink at_link"></div></a>
     <div id="footer_bar"><div id="footer_con">WolfStudioApps is an independent sole trader based in Sunderland, UK</div></div>
 </div><!-- new footer wrapper to get 100% bg color -->
 </div>

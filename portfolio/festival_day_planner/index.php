@@ -35,7 +35,7 @@ The app is built fully within itself. All main <span class="blue_text">features 
 The app <span class="blue_text">processes</span> the bands the user has added to the plan by <span class="blue_text">comparing</span> the start time of each band. If the bands <span class="blue_text">clash</span> it will show this, else the time difference between the bands will be shown.
 </div><div class="feature_left"><div class="feature_img festival_feature_bg"><img src="images/gear.png" width="295" height="300" /></div></div></div>
 
-<div class="feature_box"><div class="feature_left"><div class="feature_img festival_feature_bg"><img class="extra_margin1" src="images/crowd.png" width="420" height="231" /></div></div><div class="feature_right">
+<div class="feature_box"><div class="feature_left"><div class="feature_img festival_feature_bg edit_img"><img class="extra_margin1" src="images/crowd.png" width="420" height="231" /></div></div><div class="feature_right">
 The home screen of the app is also the <span class="blue_text">now playing section</span> which is a <span class="blue_text">quick and easy</span> way for the user to see which bands are currently playing <span class="blue_text">across all stages</span> as well as who is next on each stage.
 </div></div>
 
@@ -81,9 +81,9 @@ The home screen of the app is also the <span class="blue_text">now playing secti
 </div>
 <div id="fwrapper" class="festival_bg_tiny">
 <div id="footer">
-	<div class="foot_content sink"><a href="../../index.php"><img src="../css/home.png" width="304" height="300" /></a></div>
-    <div class="foot_content"><img src="../css/wolftie.png"  width="164"  height="300"/></div>
-    <div class="foot_content sink"><a href="../../contact.php"><img src="../css/at.png" width="304" height="300" /></a></div>
+	<a href="../../index.php"><div class="foot_content sink home_link"></div></a>
+    <div class="foot_content wolftie"></div>
+    <a href="../../contact.php"><div class="foot_content sink at_link"></div></a>
     <div id="footer_bar"><div id="footer_con">WolfStudioApps is an independent sole trader based in Sunderland, UK</div></div>
 </div><!-- new footer wrapper to get 100% bg color -->
 </div>

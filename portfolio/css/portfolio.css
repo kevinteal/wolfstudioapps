@@ -182,7 +182,7 @@ hr.style-one {
 }
 .text_single{
 	text-align:center;
-	height:200px;
+	height:100%;
 	width:100%;
 	float:left;
 	font-size:1.5em;
@@ -397,7 +397,20 @@ hr.style-one {
 	float:left;
 	height:90%;
 	text-align:center;
-	
+	background-position: center center; 
+	background-repeat:no-repeat;
+}
+.home_link{
+	background-image:url(home.png);
+	background-size:304px 300px;
+}
+.wolftie{
+	background-image:url(wolftie.png);
+	background-size:164px 300px;
+}
+.at_link{
+	background-image:url(at.png);
+	background-size:304px 300px;
 }
 .sink{
 	cursor:pointer;
@@ -408,9 +421,7 @@ hr.style-one {
     -webkit-transform: scale(0.8); /* Safari */
     transform: scale(0.8);
 }
-.foot_content img{
-	margin-top:10px;
-}
+
 .cloud_bg_tiny{
 	background-color:#181818;
 	background-image:url(../cloud_potato/images/tiny_tv.png);
@@ -479,3 +490,118 @@ video{
 	}
   
 }
+
+
+
+@media screen and (max-width: 768px) {
+	#wrapper,#footer{
+	   width:760px;
+   }
+   video{
+	width:700px; 
+	height:550px;
+	}
+	.feature_img img{
+		 -ms-transform: scale(0.7); /* IE 9 */
+		-webkit-transform: scale(0.7); /* Safari */
+		transform: scale(0.7);
+		margin-left:-20px;
+	}
+	.edit_img img{
+		margin-left:-80px;
+	}
+	.portfolio_box{
+		width:30%;
+		margin-left:2px;
+	}
+	.info_box{
+		display:none;
+	}
+	.extra_height{
+		height:450px !important;
+	}
+	.portfolio_side{
+		width:35%;
+	}
+	.portfolio_cen{
+		width:30%;
+	}
+	.home_link{
+	background-size:250px 247px;
+	}
+	.wolftie{
+		background-size:135px 247px;
+	}
+	.at_link{
+		background-size:250px 247px;
+	}
+	
+	#footer_con{
+		width:80%;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	 #wrapper,#footer{
+	   width:320px;
+   }
+   #main_content{
+	margin-top:0 !important;
+   }
+   .feature_left{
+	display:none;
+}
+.feature_right{
+	width:100%;
+}
+.feature_box{
+	height:100%;
+}
+
+video{
+	width:320px;
+	height:300px;
+}
+#vid_box{
+	height:350px;
+}
+.portfolio_side{
+		width:25%;
+	}
+	.portfolio_cen{
+		width:50%;
+	}
+	.portfolio_box{
+		width:98%;
+	}
+	.extra_height{
+		height:900px !important;
+	}
+	
+	#fwrapper{
+		height:220px;
+	}
+	#quote{
+		width:100%;
+	}
+	.home_link{
+	background-size:120px 118px;
+	}
+	.wolftie{
+		background-size:81px 148px;
+	}
+	.at_link{
+		background-size:120px 118px;
+	}
+	#footer_con{
+		font-size:0.6em !important;
+		width:100%;
+	}
+	
+}
+
+
+
+
+
+
